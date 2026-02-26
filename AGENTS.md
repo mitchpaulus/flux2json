@@ -7,14 +7,14 @@ Default schema (There may be others)
   "tables": [
      {
        "columns": [
-          { "name": "time", "type": "datetime", "format": "rfc3339", "index": 0 },
+          { "name": "_time", "type": "datetime", "format": "rfc3339", "index": 0 },
           { "name": "host", "type": "string", "index": 1 },
           { "name": "cpu", "type": "float", "index": 2 },
           { "name": "ok", "type": "bool", "index": 3 }
        ]
        "data": [
             {
-                "time": "2026-02-26T12:00:00Z",
+                "_time": "2026-02-26T12:00:00Z",
                 "host": "a",
                 "cpu": 0.12,
                 "ok": true

@@ -1,3 +1,3 @@
-module flux2json
+module github.com/mitchpaulus/flux2json
 
 go 1.21
